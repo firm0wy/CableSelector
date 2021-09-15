@@ -74,6 +74,8 @@ public class PowerFromCurrent implements ActionListener {
         powerFromCurrentPanel.setBorder(BorderFactory.createEmptyBorder(30,30,30,30));
         powerFromCurrentPanel.setLayout((new GridLayout(0,1)));
 
+
+
         powerFromCurrentPanel.add(selectPhases);
         powerFromCurrentPanel.add(label1);
         powerFromCurrentPanel.add(currentField);
@@ -92,6 +94,7 @@ public class PowerFromCurrent implements ActionListener {
 
         frame=new JFrame();
         frame.add(powerFromCurrentPanel, BorderLayout.CENTER);
+        //frame.add(new  CurrentFromPowerPanel, BorderLayout.CENTER);
         frame.setLayout(new GridLayout(1,2));
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.setTitle("POWER CALCULATOR");

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PowerFromCurrent:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PowerFromCurrent_jar</output-path>
+    <root id="archive" name="PowerFromCurrent.jar">
+      <element id="module-output" name="PowerFromCurrent" />
+    </root>
+  </artifact>
+</component>
